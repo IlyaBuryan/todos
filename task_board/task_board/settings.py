@@ -51,17 +51,6 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-# CORS_ALLOWED_ORIGINS = [
-#     "http://localhost:8000",
-#     "http://127.0.0.1:8000",
-#     "http://localhost:80",
-#     "http://127.0.0.1:80",
-# ]
-
-# CORS_ALLOW_ALL_ORIGINS = True
-
-# CORS_ALLOW_HEADERS = ['*']
-
 ROOT_URLCONF = 'task_board.urls'
 
 TEMPLATES = [
@@ -86,10 +75,6 @@ WSGI_APPLICATION = 'task_board.wsgi.application'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
 DATABASES = {
-    # 'default': {
-    #     'ENGINE': 'django.db.backends.sqlite3',
-    #     'NAME': BASE_DIR / 'db.sqlite3',
-    # },
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'postgres',
