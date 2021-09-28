@@ -14,7 +14,6 @@ services:
     build:
       context: .
     command: bash -c "sleep 15
-#      && ./wait-for-postgres.sh db
       && python manage.py migrate
       && python manage.py create_django_superuser
       && gunicorn task_board.wsgi -b 0.0.0.0:8080"
