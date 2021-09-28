@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  font-family: Verdana, Georgia, 'Times New Roman';
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.up_block {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.buttons_group {
+  display: flex;
+  justify-content: center;
+  background-color: #A52A2A;
+  text-decoration: none;
+  width: 100%;
+}
+
+.button {
+  min-width: 200px;
+  height: 30px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons_group * {
+  text-decoration: none;
+}
+
+.btn-warning {
+  width: 100%;
+}

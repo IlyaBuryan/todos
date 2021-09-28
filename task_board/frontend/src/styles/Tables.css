@@ -1,0 +1,23 @@
+.table_wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  width: 80%;
+  max-width: 900px;
+}
+
+table thead {
+  background-color: teal;
+}
+
+table td {
+  padding: 15px;
+}
+
+table th {
+  padding: 5px;
+  min-width: 100px;
+}
