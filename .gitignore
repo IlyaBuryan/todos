@@ -1,0 +1,5 @@
+task_board/.idea/
+task_board/authapp/__pycache__/
+task_board/authapp/management/commands/__pycache__/
+task_board/authapp/migrations/__pycache__/
+task_board/task_board/__pycache__/
