@@ -28,6 +28,6 @@ services:
   frontend:
     build: ./task_board/frontend
     ports:
-      - 80:80
+      - 80:8011
     depends_on:
       - nginx
