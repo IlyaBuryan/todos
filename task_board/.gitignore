@@ -1,7 +1,0 @@
-/db.sqlite3
-/__pycache__/
-/authapp/__pycache__/
-/authapp/migrations/__pycache__/
-/task_board/__pycache__/
-/authapp/management/commands/__pycache__/
-.idea
