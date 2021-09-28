@@ -4,8 +4,6 @@ services:
   db:
     image: postgres:13.1
     privileged: true
-#    ports:
-#      - 5432:5432
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
@@ -22,7 +20,7 @@ services:
   nginx:
     build: ./nginx
     ports:
-      - 8000:80
+      - 8012:80
     depends_on:
       - backend
   frontend:
